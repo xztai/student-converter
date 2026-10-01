@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout кода
         uses: actions/checkout@v4
 
-      - name: Build Docker image
-        run: docker build -t my-app:test .
+      - name: Сборка Docker-образа
+        run: docker build -t student-converter:build .
